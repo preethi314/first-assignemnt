@@ -1,0 +1,6 @@
+touch kry{1..10}.txt && echo "guvi" | tee *.txt
+
+mkdir technology
+cp key{1..10}.txt technology
+cd technology/
+tar -cvzf output.tar.gz *.txt
